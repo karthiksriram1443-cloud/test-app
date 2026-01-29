@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+}
+
+.logo {
+    width: 270px;
+    margin-bottom: 25px;
+}
+
+.search {
+    width: 500px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    outline: none;
+}
+
+.search:hover,
+.search:focus {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #dadce0;
+}
